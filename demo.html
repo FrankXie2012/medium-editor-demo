@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link rel="stylesheet" href="bower_components/medium-editor/dist/css/medium-editor.min.css">
+	<link rel="stylesheet" href="bower_components/medium-editor/dist/css/themes/default.css">
+	<style>
+		h2, h3, p{ margin: 0; }
+		.editor{ border: 1px solid #ddd; line-height: 24px; outline: none; }
+	</style>
+</head>
+<body>
+<br><br>
+<div class="editor"></div><br>
+<p class="editor">Cleveland Cavaliars</p><br>
+<div class="editor">勒布朗·詹姆斯</div>
+
+<script src="bower_components/medium-editor/dist/js/medium-editor.min.js"></script>
+<script>
+	var editor = new MediumEditor('.editor');
+</script>
+</body>
+</html>
